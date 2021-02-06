@@ -11,3 +11,14 @@ Awx CLI
 awx login --conf.host http://192.168.122.110 --conf.username user --conf.password pass
 awx --conf.token xxxxxxxxxxxxxxxxxxxx --conf.host http://192.168.122.110 user list
 ```
+Format : {json,yaml,jq,human}
+```
+# awx --conf.token LXXXXXXXXXXXXXXXXXXXXXJ --conf.host http://192.168.122.110 users list -f human
+id username 
+== ======== 
+6  aap      
+4  adi      
+1  admin    
+3  alan     
+5  pras
+```
