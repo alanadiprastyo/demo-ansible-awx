@@ -23,5 +23,5 @@
   - name: Start NGiNX
     service:
       name: nginx
-      state: stoped
+      state: stopped
 
