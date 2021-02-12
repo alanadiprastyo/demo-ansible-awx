@@ -1,7 +1,0 @@
----
-- hosts: all
-  gather_facts: false
-  tasks:
-    - name: add iptables masquerade
-      shell: iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
-
